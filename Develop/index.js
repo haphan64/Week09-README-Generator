@@ -1,8 +1,20 @@
 const inquirer = require ("inquirer");
-const generatedMarkdown = require ("./utils/generateMarkdown");
 const fs = require ("fs");
+const generatedMarkdown = require ("./utils/generateMarkdown");
 
 const questions = [
+    {
+        type: "input",
+        message: "Enter GitHub Username",
+        name: "username"
+    },
+
+    {
+        type: "input",
+        message: "Enter GitHub Repository",
+        name: "repo"
+    },
+    
     {
         type: "input",
         message: "Enter a Project Title",
@@ -31,18 +43,6 @@ const questions = [
         type: "input",
         message: "Usage",
         name: "usage"
-    },
-
-    {
-        type: "input",
-        message: "License",
-        name: "license"
-    },
-
-    {
-        type: "input",
-        message: "Contributing",
-        name: "contributing"
     },
 
     {
