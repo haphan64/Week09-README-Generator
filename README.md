@@ -21,3 +21,7 @@ N/A
 
 ## Questions
 N/A
+
+## How It Works
+https://github.com/haphan64/Week09-README-Generator/blob/master/Develop/howitworks.gif
+

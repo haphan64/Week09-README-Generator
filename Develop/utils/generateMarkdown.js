@@ -22,6 +22,10 @@ ${data.tests}
 
 ## Questions
 ${data.questions}
+
+## How It Works
+https://github.com/${data.username}/${data.repo}/blob/master/Develop/howitworks.gif
+
 `;
 }
 
